@@ -7,6 +7,7 @@ public  class strong_number {
              int fact=1;
             int rem=num%10;
             for(int i=1;i<=rem;i++){
+                
                 fact=fact*i;
             }
             sum=sum+fact;
@@ -21,8 +22,9 @@ public  class strong_number {
     }
     public static void main(String[] args){
          int num=123;
-        //strong_number s=new strong_number();
+        strong_number s=new strong_number();
         A(num);
+        s.A(num);//run hogi static hoke bhi pr warning aayegi
 
     }
 }

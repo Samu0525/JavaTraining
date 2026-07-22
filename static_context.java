@@ -1,4 +1,4 @@
-public class Test{
+public class static_context{
 // {   Static context: create data members and methods using static modifier
 //     types: 
 //     1. Static variable : prefix wiith static modifier
