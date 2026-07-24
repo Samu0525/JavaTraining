@@ -38,8 +38,8 @@ l.setpasswd("SAM@123");
         System.out.println("User id matched...");
         
         System.out.println("Enter user password:");
-        String user_passwd=sc.next().toLowerCase();
-        if(user_passwd.toString().contains(l.getpasswd().toLowerCase())){
+        String user_passwd=sc.next().toLowerCase().toUpperCase();
+        if(user_passwd.toString().contains(l.getpasswd().toLowerCase().toUpperCase())){
             System.out.println("Password pamatched...");
             System.out.println("Login successful...");
             
